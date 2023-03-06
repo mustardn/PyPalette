@@ -1,5 +1,3 @@
-# Tableau
-
 ### Updating the Tableau preferences file
 tableau_palette.py is a short script to create new colour palettes or update existing palettes with new colours.
 
@@ -12,3 +10,7 @@ To run the script, the tableau repository directory must be your current working
 Ensure the Preferences.tps file is in your tableau repository directory before running the script. Note: this file is automatically created for you when Tableau Desktop is installed on your computer.
 
 ![image](https://user-images.githubusercontent.com/46031321/222986913-72642e0e-10dd-42b8-b4e3-dfb52013929f.png)
+
+### Getting a list of hex codes from a logo
+logo_colours.py is a script which takes a logo image file and palette size as input and returns a list of hex codes found in that logo.
+This list can then be used to create custom palettes in Tableau
